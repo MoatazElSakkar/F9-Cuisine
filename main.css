@@ -1,0 +1,92 @@
+#TagLine,#BrandName
+{
+    color: #5d5d5d;
+    margin: 0;
+}
+
+#BrandName
+{
+    font-family: "Sansita Swashed";
+    font-size: 11vh;
+}
+
+#TagLine
+{
+    margin-left: 5vw;
+}
+
+#SignUpBox .TextField
+{
+    display: block;
+    width: 30vw;
+    border-radius: 3px;
+    border-color: #5d5d5d;
+    margin-bottom: 5vh;
+    height: 3vh;
+    min-width: 410px;
+}
+
+#SignUpBox h1,label
+{
+    font-family: "Segoe UI Semibold";
+    color: #5d5d5d;
+
+}
+
+#SignUpBox
+{
+    display: inline-block;
+}
+
+#splashArtBox
+{
+    background-image: url("./Graphics/Bacchus-Cuisine.jpg");
+    max-height: 70vh;
+    min-height: 70vh;
+
+    float: right;
+    max-width: 60vw;
+    min-width: 0vw;
+    overflow: hidden;
+    display: table;
+    align-content: center;
+}
+
+#splashArtBox p
+{
+    margin-top:25%;
+    font-family: "Sansita Swashed";
+    font-size: 5vh;
+    color: white;
+    text-align: center;
+    border-width: 3px;
+    border-color: white;
+    border-style: solid;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#SignUpBox #submitBtn
+{
+    background: #5d5d5d;
+    width: 90px;
+    height: 30px;
+    border-style: none;
+    color: white;
+    font-family: "Segoe UI Semibold";
+    transition: background-color 200ms;
+}
+
+#SignUpBox #submitBtn:hover
+{
+    background: #ffbf45;
+}
+
+\\Smartphone responsivness
+@media screen and (orientation:portrait)
+{
+    #splashArtBox
+    {
+        display: none;
+    }
+}

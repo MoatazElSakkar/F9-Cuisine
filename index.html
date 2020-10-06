@@ -8,7 +8,6 @@
 </head>
 
 <body>
-
 <h1 id="BrandName">F9 Cuisine</h1>
 <h3 id="TagLine">French kitchen <em>on demand</em></h3>
 <br><br>
@@ -16,16 +15,16 @@
     <form action="" method="post">
         <h1>Sign up with your Email address</h1>
         <label for="Email">Email</label>
-        <input name="email" class="TextField" type="email" id="Email">
+        <input required pattern="[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-zA-Z0-9]+" name="email" class="TextField" type="email" id="Email">
 
         <label for="Username">Username</label>
-        <input name="userName" class="TextField" type="text" id="Username">
+        <input required pattern="[a-zA-Z0-9]+" name="userName" class="TextField" type="text" id="Username">
 
         <label for="Password">Password</label>
-        <input name="pwd" class="TextField" type="password" id="Password">
+        <input min="8" max="15" required pattern="[a-zA-Z0-9]+" name="pwd" class="TextField" type="password" id="Password">
 
         <label for="phoneNo">Phone Number</label>
-        <input name="telNo" class="TextField" type="tel" id="phoneNo">
+        <input min="11" max="13" required pattern="[0-9]+" name="telNo" class="TextField" type="tel" id="phoneNo">
 
         <input type="submit" id="submitBtn" value="submit">
     </form>

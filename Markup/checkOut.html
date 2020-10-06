@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <script>
+    </script>
+    <style>
+        #CheckoutTable
+        {
+            background-color: #e6e3e0;
+            font-family: "Segoe UI";
+            width: 70vw;
+        }
+
+        #CheckoutTable td
+        {
+            border-width: 4px;
+            border-color: white;
+            border-style: solid;
+        }
+
+        #checkoutBtn
+        {
+            background-color: #5d5d5d;
+            color: white;
+            transition:background-color 300ms;
+            font-family: "Segoe UI";
+            text-decoration: none;
+            padding: 2px;
+            display: inline-block;
+            margin: 15px;
+        }
+        #checkoutBtn:hover
+        {
+            background-color: #ffbf45;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>Order Check Out</title>
+</head>
+<body>
+<Table id="CheckoutTable">
+    <thead>
+    <td>Item</td>
+    <td>Price</td>
+    </thead>
+    <tr>
+        <td>Rare black truffle</td>
+        <td>230€</td>
+    </tr>
+    <tr>
+        <td>Bouillabaisse</td>
+        <td>150€</td>
+    </tr>
+    <tfoot>
+    <td>Total</td>
+    <td>380€</td>
+    </tfoot>
+</Table>
+<a id="checkoutBtn" href="javascript:completeCheckout()">Complete Checkout</a>
+</body>
+</html>

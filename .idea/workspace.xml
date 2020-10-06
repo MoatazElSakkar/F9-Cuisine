@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d022d9a6-e4e9-4625-aa8e-f526246f2fc2" name="Default Changelist" comment="Form validation added for sign up form">
+    <list default="true" id="d022d9a6-e4e9-4625-aa8e-f526246f2fc2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Markup/checkOut.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/checkout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +16,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -23,6 +26,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1iSJ9B6fg81OvwP6DC0IOT01R9m" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -61,8 +67,17 @@
       <updated>1601894908820</updated>
       <workItem from="1601894921567" duration="8422000" />
       <workItem from="1601908728302" duration="92000" />
-      <workItem from="1601941231810" duration="1236000" />
+      <workItem from="1601941231810" duration="1361000" />
+      <workItem from="1601973536919" duration="2101000" />
     </task>
+    <task id="LOCAL-00001" summary="Form validation added for sign up form">
+      <created>1601944778843</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601944778843</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,13 +88,21 @@
     <option name="LAST_COMMIT_MESSAGE" value="Form validation added for sign up form" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="282" y="0" key="CommitChangelistDialog2" timestamp="1601944765703">
+    <state x="282" y="0" key="CommitChangelistDialog2" timestamp="1601944777084">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="282" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1601944765703" />
-    <state x="464" y="125" key="FileChooserDialogImpl" timestamp="1601901664194">
+    <state x="282" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1601944777084" />
+    <state x="464" y="125" key="FileChooserDialogImpl" timestamp="1601974838546">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="464" y="125" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1601901664194" />
+    <state x="464" y="125" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1601974838546" />
+    <state x="276" y="103" key="Vcs.Push.Dialog.v2" timestamp="1601944786872">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="276" y="103" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1601944786872" />
+    <state x="347" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1601944783104">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="347" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1601944783104" />
   </component>
 </project>

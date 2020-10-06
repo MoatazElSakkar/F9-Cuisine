@@ -7,8 +7,7 @@
     <script>
         //loading check out page subroutine
         //First the js related to it is loaded
-        $.ajax({url:"js/checkout.js",dataType:"script",success:loadMarkup});
-
+        $.ajax({url:"js/checkout.js",dataType:"script",success:loadMarkup});c
         //Which calls a function that add the check out markup to the index page
         function loadMarkup()
         {
@@ -18,6 +17,18 @@
                     document.getElementsByTagName("main")[0].innerHTML  =input;
                 });
         }
+
+        //$.ajax({url:"js/signup.js",dataType:"script",success:loadsignUpMarkup});
+        //Which calls a function that add the check out markup to the index page
+        function loadsignUpMarkup()
+        {
+            $.get("Markup/signup.html", function (input) {}, 'text').then(
+                function (input) {
+                    console.log(input);
+                    document.getElementsByTagName("main")[0].innerHTML  =input;
+                });
+        }
+
 
     </script>
     <meta charset="UTF-8">
@@ -29,29 +40,7 @@
 <h3 id="TagLine">French kitchen <em>on demand</em></h3>
 <br><br>
 <main>
-    <div id="SignUpBox">
-        <form action="" method="post">
-            <h1>Sign up with your Email address</h1>
-            <label for="Email">Email</label>
-            <input required pattern="[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-zA-Z0-9]+" name="email" class="TextField"
-                   type="email" id="Email">
 
-            <label for="Username">Username</label>
-            <input required pattern="[a-zA-Z0-9]+" name="userName" class="TextField" type="text" id="Username">
-
-            <label for="Password">Password</label>
-            <input min="8" max="15" required pattern="[a-zA-Z0-9]+" name="pwd" class="TextField" type="password"
-                   id="Password">
-
-            <label for="phoneNo">Phone Number</label>
-            <input min="11" max="13" required pattern="[0-9]+" name="telNo" class="TextField" type="tel" id="phoneNo">
-
-            <input type="submit" id="submitBtn" value="submit">
-        </form>
-    </div>
-    <div id="splashArtBox">
-        <p>Finest palettes from the culinary artists of the french kitchen</p>
-    </div>
 </main>
 </body>
 </html>

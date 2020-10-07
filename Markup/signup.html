@@ -4,15 +4,25 @@
     {
         display: block;
         border-radius: 3px;
-        border-color: #5d5d5d;
+        border-color: #5d5d5d !important;
         margin-bottom: 5vh;
         height: 5vh;
         width: 400px;
+        border-style: solid;
+    }
+
+    .form-control
+    {
+        border-color:#5d5d5d;
+    }
+    .form-control:focus{
+        border-color: #ffbf45;
+        box-shadow: 0 0 0 transparent, 0 0 5px #ffbf45;
     }
 
     #SignUpBox h1,label
     {
-        font-family: "Segoe UI Semibold";
+        font-family: "Verdana";
         color: #5d5d5d;
     }
 
@@ -29,7 +39,7 @@
     #splashArtBox
     {
         background-image: url("./Graphics/Bacchus-Cuisine.jpg");
-        max-width: 830px;
+        max-width: 800px;
     }
 
     #splashArtBox p
@@ -48,12 +58,13 @@
 
     #SignUpBox #submitBtn
     {
+        border-radius: 3px;
         background: #5d5d5d;
         width: 90px;
         height: 30px;
         border-style: none;
         color: white;
-        font-family: "Segoe UI Semibold";
+        font-family: "Verdana";
         transition: background-color 200ms;
     }
 
@@ -61,28 +72,32 @@
     {
         background: #ffbf45;
     }
-
 </style>
 
 <div class="row">
 <div id="SignUpBox" class=".col-sm-12 .col-lg-6 order-lg-first">
     <form action="" method="post">
         <h1>Sign up with your Email address</h1>
-        <label for="Email">Email</label>
-        <input required pattern="[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-zA-Z0-9]+" name="email" class="TextField"
-               type="email" id="Email">
 
+        <div class="form-group"><label for="Email">Email</label>
+            <input class="form-control" placeholder="Please enter your email" required pattern="[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-zA-Z0-9]+" name="email" class="TextField"
+                   type="email" id="Email"></div>
+
+        <div class="form-group">
         <label for="Username">Username</label>
-        <input required pattern="[a-zA-Z0-9]+" name="userName" class="TextField" type="text" id="Username">
+        <input class="form-control" placeholder="Choose a unique username" required pattern="[a-zA-Z0-9]+" name="userName" class="TextField" type="text" id="Username">
+        </div>
 
-        <label for="Password">Password</label>
-        <input min="8" max="15" required pattern="[a-zA-Z0-9]+" name="pwd" class="TextField" type="password"
-               id="Password">
+        <div class="form-group"><label for="Password">Password</label>
+            <input class="form-control" placeholder="Use a new password" min="8" max="15" required
+                   pattern="[a-zA-Z0-9]+" name="pwd" class="TextField" type="password"
+                   id="Password"></div>
 
-        <label for="phoneNo">Phone Number</label>
-        <input min="11" max="13" required pattern="[0-9]+" name="telNo" class="TextField" type="tel" id="phoneNo">
+        <div class="form-group"><label for="phoneNo">Phone Number</label>
+            <input class="form-control" placeholder="Please enter your phone number" min="11" max="13" required
+                   pattern="[0-9]+" name="telNo" class="TextField" type="tel" id="phoneNo"></div>
 
-        <input type="submit" id="submitBtn" value="submit">
+        <input type="submit" id="submitBtn" value="Submit">
     </form>
 </div>
 <div id="splashArtBox" class=".col-sm-12 order-first .col-lg-6 order-xl-last">

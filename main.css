@@ -21,15 +21,21 @@
     background-color: #5d5d5d !important;
     height: 11vh;
     top: 6vh;
+    border-radius: 6px;
 }
 
 .navbar .nav-link
 {
     color: white;
     transition: color 200ms;
+    font-family: "Verdana";
 }
 
 .navbar .nav-link:hover
 {
     color: #ffbf45;
+}
+
+.navbar .nav-link:active {
+    color: white;
 }

@@ -7,19 +7,19 @@
 #BrandName
 {
     font-family: "Sansita Swashed";
-    font-size: 11vh;
+    font-size: 72px;
 }
 
 #TagLine
 {
-    font-size: 3vh;
-    margin-left: 3vw;
+    font-size: 24px;
+    margin-left: 1.6vw;
 }
 
 .navbar
 {
     background-color: #5d5d5d !important;
-    height: 11vh;
+    height: 64px;
     top: 6vh;
     border-radius: 6px;
 }

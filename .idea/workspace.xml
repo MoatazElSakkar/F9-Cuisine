@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d022d9a6-e4e9-4625-aa8e-f526246f2fc2" name="Default Changelist" comment="">
+    <list default="true" id="2cdc5954-679b-49b8-a275-d6b6bc2e300e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Markup/checkOut.html" beforeDir="false" afterPath="$PROJECT_DIR$/Markup/checkOut.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Markup/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/Markup/signup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,35 +11,19 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="CSS File" />
-        <option value="JavaScript File" />
-        <option value="HTML File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1iSJ9B6fg81OvwP6DC0IOT01R9m" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1iYNP4E5iZJ49l4AgZ6SZhaAPnk" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -59,83 +42,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d022d9a6-e4e9-4625-aa8e-f526246f2fc2" name="Default Changelist" comment="" />
-      <created>1601894908820</created>
+      <changelist id="2cdc5954-679b-49b8-a275-d6b6bc2e300e" name="Default Changelist" comment="" />
+      <created>1602080539172</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1601894908820</updated>
-      <workItem from="1601894921567" duration="8422000" />
-      <workItem from="1601908728302" duration="92000" />
-      <workItem from="1601941231810" duration="1361000" />
-      <workItem from="1601973536919" duration="3209000" />
-      <workItem from="1601977401356" duration="1181000" />
-      <workItem from="1602069587736" duration="9289000" />
+      <updated>1602080539172</updated>
+      <workItem from="1602080550638" duration="511000" />
+      <workItem from="1602081318651" duration="62000" />
     </task>
-    <task id="LOCAL-00001" summary="Form validation added for sign up form">
-      <created>1601944778843</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1601944778843</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Checkout Page with Javascript&#10;&#10;Now navigates automatically to the dummy checkout page&#10;implementing single page architecure&#10;sign up page should be separated before any further development.">
-      <created>1601975768857</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1601975768857</updated>
-    </task>
-    <task id="LOCAL-00003" summary="sign up page separated out for better modularity&#10;&#10;now sign up page has it's own set of files signup.html and signup.js each in the appropriate resource folder&#10;index itself is empty of non other than the brand name and tagline">
-      <created>1601976777793</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1601976777793</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Bootstrap for better responsiveness across devices&#10;&#10;Sign up and check out page have been reorganized into a bootstrap grid with both responsive gridding and reordering.&#10;&#10;Navigation bar added to index for switching between sign up and check out.">
-      <created>1602075125699</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1602075125699</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Form validation added for sign up form" />
-    <MESSAGE value="Checkout Page with Javascript&#10;&#10;Now navigates automatically to the dummy checkout page&#10;implementing single page architecure&#10;sign up page should be separated before any further development." />
-    <MESSAGE value="sign up page separated out for better modularity&#10;&#10;now sign up page has it's own set of files signup.html and signup.js each in the appropriate resource folder&#10;index itself is empty of non other than the brand name and tagline" />
-    <MESSAGE value="Bootstrap for better responsiveness across devices&#10;&#10;Sign up and check out page have been reorganized into a bootstrap grid with both responsive gridding and reordering.&#10;&#10;Navigation bar added to index for switching between sign up and check out." />
-    <option name="LAST_COMMIT_MESSAGE" value="Bootstrap for better responsiveness across devices&#10;&#10;Sign up and check out page have been reorganized into a bootstrap grid with both responsive gridding and reordering.&#10;&#10;Navigation bar added to index for switching between sign up and check out." />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="185" y="0" key="CommitChangelistDialog2" timestamp="1602075122910">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="185" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1602075122910" />
-    <state x="464" y="125" key="FileChooserDialogImpl" timestamp="1601974838546">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="464" y="125" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1601974838546" />
-    <state x="276" y="103" key="Vcs.Push.Dialog.v2" timestamp="1602075143546">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="276" y="103" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1602075143546" />
-    <state x="495" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601976769695">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="495" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1601976769695" />
-    <state x="340" y="159" key="run.anything.popup" timestamp="1602076364443">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="340" y="159" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1602076364443" />
-    <state x="347" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1602075141827">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="347" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1602075141827" />
   </component>
 </project>

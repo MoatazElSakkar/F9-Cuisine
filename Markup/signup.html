@@ -3,12 +3,11 @@
     #SignUpBox .TextField
     {
         display: block;
-        width: 30vw;
         border-radius: 3px;
         border-color: #5d5d5d;
         margin-bottom: 5vh;
-        height: 3vh;
-        min-width: 410px;
+        height: 5vh;
+        width: 400px;
     }
 
     #SignUpBox h1,label
@@ -17,23 +16,20 @@
         color: #5d5d5d;
     }
 
+    #SignUpBox h1
+    {
+        font-size: 5vh;
+    }
+
     #SignUpBox
     {
-        display: inline-block;
+        margin: 5px;
     }
 
     #splashArtBox
     {
         background-image: url("./Graphics/Bacchus-Cuisine.jpg");
-        max-height: 70vh;
-        min-height: 70vh;
-
-        float: right;
-        max-width: 60vw;
-        min-width: 0vw;
-        overflow: hidden;
-        display: table;
-        align-content: center;
+        max-width: 830px;
     }
 
     #splashArtBox p
@@ -66,17 +62,10 @@
         background: #ffbf45;
     }
 
-    \\Smartphone responsivness
-    @media screen and (orientation:portrait)
-    {
-        #splashArtBox
-        {
-            display: none;
-        }
-    }
-
 </style>
-<div id="SignUpBox">
+
+<div class="row">
+<div id="SignUpBox" class=".col-sm-12 .col-lg-6 order-lg-first">
     <form action="" method="post">
         <h1>Sign up with your Email address</h1>
         <label for="Email">Email</label>
@@ -96,6 +85,7 @@
         <input type="submit" id="submitBtn" value="submit">
     </form>
 </div>
-<div id="splashArtBox">
+<div id="splashArtBox" class=".col-sm-12 order-first .col-lg-6 order-xl-last">
     <p>Finest palettes from the culinary artists of the french kitchen</p>
+</div>
 </div>

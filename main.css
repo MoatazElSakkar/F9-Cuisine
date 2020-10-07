@@ -12,5 +12,24 @@
 
 #TagLine
 {
-    margin-left: 5vw;
+    font-size: 3vh;
+    margin-left: 3vw;
+}
+
+.navbar
+{
+    background-color: #5d5d5d !important;
+    height: 11vh;
+    top: 6vh;
+}
+
+.navbar .nav-link
+{
+    color: white;
+    transition: color 200ms;
+}
+
+.navbar .nav-link:hover
+{
+    color: #ffbf45;
 }

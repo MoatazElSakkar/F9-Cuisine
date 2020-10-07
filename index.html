@@ -2,31 +2,38 @@
 <html lang="en">
 <link rel="stylesheet" type="text/css" href="./main.css">
 <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 <head>
     <script src="js/jquery.js"></script>
     <script>
-        //loading check out page subroutine
-        //First the js related to it is loaded
-        $.ajax({url:"js/checkout.js",dataType:"script",success:loadMarkup});c
-        //Which calls a function that add the check out markup to the index page
-        function loadMarkup()
-        {
-            $.get("Markup/checkOut.html", function (input) {}, 'text').then(
-                function (input) {
-                    console.log(input);
-                    document.getElementsByTagName("main")[0].innerHTML  =input;
-                });
+        loadSignUp();
+        function loadCheckOut() {
+            //loading check out page subroutine
+            //First the js related to it is loaded
+            $.ajax({url: "js/checkout.js", dataType: "script", success: loadMarkup});
+            //Which calls a function that add the check out markup to the index page
+            function loadMarkup() {
+                $.get("Markup/checkOut.html", function (input) {
+                }, 'text').then(
+                    function (input) {
+                        console.log(input);
+                        document.getElementsByTagName("main")[0].innerHTML = input;
+                    });
+            }
         }
 
-        //$.ajax({url:"js/signup.js",dataType:"script",success:loadsignUpMarkup});
-        //Which calls a function that add the check out markup to the index page
-        function loadsignUpMarkup()
-        {
-            $.get("Markup/signup.html", function (input) {}, 'text').then(
-                function (input) {
-                    console.log(input);
-                    document.getElementsByTagName("main")[0].innerHTML  =input;
-                });
+        function loadSignUp() {
+            $.ajax({url: "js/signup.js", dataType: "script", success: loadsignUpMarkup});
+
+            //Which calls a function that add the check out markup to the index page
+            function loadsignUpMarkup() {
+                $.get("Markup/signup.html", function (input) {
+                }, 'text').then(
+                    function (input) {
+                        console.log(input);
+                        document.getElementsByTagName("main")[0].innerHTML = input;
+                    });
+            }
         }
 
 
@@ -36,10 +43,21 @@
 </head>
 
 <body>
+<div class="row">
+<div id="brandingContainer" class="col-sm-12 col-md-6 col-lg-4">
 <h1 id="BrandName">F9 Cuisine</h1>
 <h3 id="TagLine">French kitchen <em>on demand</em></h3>
+</div>
+<nav class="col-md-6 col-lg-8 navbar navbar-expand">
+    <ul class="navbar-nav">
+        <li class=""><a class="nav-link" href="javascript:loadSignUp()">Sign up</a></li>
+        <li><a class="nav-link" href="javascript:loadCheckOut()">Check Out</a></li>
+        </li>
+    </ul>
+</nav>
+</div>
 <br><br>
-<main>
+<main class="col-sm-12">
 
 </main>
 </body>

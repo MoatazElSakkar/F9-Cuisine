@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d022d9a6-e4e9-4625-aa8e-f526246f2fc2" name="Default Changelist" comment="sign up page separated out for better modularity&#10;&#10;now sign up page has it's own set of files signup.html and signup.js each in the appropriate resource folder&#10;index itself is empty of non other than the brand name and tagline">
-      <change afterPath="$PROJECT_DIR$/Markup/signup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/signup.js" afterDir="false" />
+    <list default="true" id="d022d9a6-e4e9-4625-aa8e-f526246f2fc2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Markup/checkOut.html" beforeDir="false" afterPath="$PROJECT_DIR$/Markup/checkOut.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Markup/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/Markup/signup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
     </list>
@@ -68,7 +68,9 @@
       <workItem from="1601894921567" duration="8422000" />
       <workItem from="1601908728302" duration="92000" />
       <workItem from="1601941231810" duration="1361000" />
-      <workItem from="1601973536919" duration="3193000" />
+      <workItem from="1601973536919" duration="3209000" />
+      <workItem from="1601977401356" duration="1181000" />
+      <workItem from="1602069587736" duration="5374000" />
     </task>
     <task id="LOCAL-00001" summary="Form validation added for sign up form">
       <created>1601944778843</created>
@@ -84,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601975768857</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="sign up page separated out for better modularity&#10;&#10;now sign up page has it's own set of files signup.html and signup.js each in the appropriate resource folder&#10;index itself is empty of non other than the brand name and tagline">
+      <created>1601976777793</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601976777793</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,25 +106,25 @@
     <option name="LAST_COMMIT_MESSAGE" value="sign up page separated out for better modularity&#10;&#10;now sign up page has it's own set of files signup.html and signup.js each in the appropriate resource folder&#10;index itself is empty of non other than the brand name and tagline" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="282" y="0" key="CommitChangelistDialog2" timestamp="1601976757878">
+    <state x="241" y="0" key="CommitChangelistDialog2" timestamp="1602075113005">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="282" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1601976757878" />
+    <state x="241" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1602075113005" />
     <state x="464" y="125" key="FileChooserDialogImpl" timestamp="1601974838546">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="464" y="125" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1601974838546" />
-    <state x="276" y="103" key="Vcs.Push.Dialog.v2" timestamp="1601976038445">
+    <state x="276" y="103" key="Vcs.Push.Dialog.v2" timestamp="1601977966925">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="276" y="103" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1601976038445" />
+    <state x="276" y="103" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1601977966925" />
     <state x="495" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601976769695">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="495" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1601976769695" />
-    <state x="347" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1601976033707">
+    <state x="347" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1601977963080">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="347" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1601976033707" />
+    <state x="347" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1601977963080" />
   </component>
 </project>

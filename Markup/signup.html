@@ -31,15 +31,10 @@
         font-size: 5vh;
     }
 
-    #SignUpBox
-    {
-        margin: 5px;
-    }
-
     #splashArtBox
     {
         background-image: url("./Graphics/Bacchus-Cuisine.jpg");
-        max-width: 800px;
+        width: available;
     }
 
     #splashArtBox p
@@ -72,10 +67,12 @@
     {
         background: #ffbf45;
     }
+
+
 </style>
 
 <div class="row">
-<div id="SignUpBox" class=".col-sm-12 .col-lg-6 order-lg-first">
+<div id="SignUpBox" class=".col-sm-12 .col-md-6 .col-lg-6 order-lg-first">
     <form action="" method="post">
         <h1>Sign up with your Email address</h1>
 
@@ -100,7 +97,7 @@
         <input type="submit" id="submitBtn" value="Submit">
     </form>
 </div>
-<div id="splashArtBox" class=".col-sm-12 order-first .col-lg-6 order-xl-last">
+<div id="splashArtBox" class=".col-sm-12 .col-md-6 .col-lg-4 order-first order-xl-last">
     <p>Finest palettes from the culinary artists of the french kitchen</p>
 </div>
 </div>

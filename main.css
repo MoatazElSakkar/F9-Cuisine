@@ -39,3 +39,8 @@
 .navbar .nav-link:active {
     color: white;
 }
+
+#mainCont
+{
+    top:6vh;
+}

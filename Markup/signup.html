@@ -5,8 +5,9 @@
         display: block;
         border-radius: 3px;
         border-color: #5d5d5d !important;
-        margin-bottom: 5vh;
+        margin-bottom: 5px;
         border-style: solid;
+        display: flex;
     }
 
     .form-control
@@ -26,40 +27,44 @@
 
     #SignUpBox h1
     {
-        font-size: 2vw;
-        min-width: 480px;
+    }
+
+    #SignUpBox
+    {
+        display: flex;
     }
 
     #splashArtBox
     {
         background-image: url("./Graphics/Bacchus-Cuisine.jpg");
-        width: available;
+        display: flex;
+        align-items: center;
+        max-width: available;
     }
 
     #splashArtBox p
     {
-        margin-top:25%;
+        margin: 5px;
         font-family: "Sansita Swashed";
-        font-size: 5vh;
+        font-size: 4vmax;
         color: white;
         text-align: center;
         border-width: 3px;
         border-color: white;
         border-style: solid;
-        margin-left: 5px;
-        margin-right: 5px;
     }
 
     #SignUpBox #submitBtn
     {
         border-radius: 3px;
         background: #5d5d5d;
-        width: 90px;
+        max-width: 160px;
         height: 30px;
         border-style: none;
         color: white;
         font-family: "Verdana";
         transition: background-color 200ms;
+        margin: 15px;
     }
 
     #SignUpBox #submitBtn:hover
@@ -69,8 +74,7 @@
 
 
 </style>
-
-<div class="row">
+<div class="row justify-content-between flex-lg-nowrap" >
 <div id="SignUpBox" class=".col-sm-12 .col-md-6 .col-lg-6 order-lg-first">
     <form action="" method="post">
         <h1>Sign up with your Email address</h1>

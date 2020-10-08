@@ -43,4 +43,11 @@
 #mainCont
 {
     top:6vh;
+    left:1.8vmin;
+}
+
+.col-sm-12 *
+{
+    margin-top: 2px;
+    width: 99%;
 }

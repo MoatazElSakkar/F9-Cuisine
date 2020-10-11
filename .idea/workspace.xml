@@ -4,7 +4,6 @@
     <list default="true" id="d022d9a6-e4e9-4625-aa8e-f526246f2fc2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Markup/checkOut.html" beforeDir="false" afterPath="$PROJECT_DIR$/Markup/checkOut.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/checkout.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/checkout.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602096094924</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Dynamic checkout page created with Typescript&#10;&#10;Now takes order and calculates total.">
+      <created>1602429205740</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602429205740</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,22 +93,24 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="BugFix: Responsive design inoperable on smartphone&#10;&#10;Fixed by adjusting the main by 6vh from top offset to match the navbar." />
     <MESSAGE value="Fine tuning bootstrap effects via css" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fine tuning bootstrap effects via css" />
+    <MESSAGE value="Dynamic checkout page created with Typescript&#10;&#10;Now takes order and calculates total." />
+    <option name="LAST_COMMIT_MESSAGE" value="Dynamic checkout page created with Typescript&#10;&#10;Now takes order and calculates total." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="340" y="0" key="CommitChangelistDialog2" timestamp="1602429155129">
+    <state x="340" y="0" key="CommitChangelistDialog2" timestamp="1602429204391">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="340" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1602429155129" />
+    <state x="340" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1602429204391" />
     <state x="398" y="24" key="CommitChangelistDialog2/0.0.1600.870@0.0.1600.870" timestamp="1602096094099" />
-    <state x="392" y="169" key="Vcs.Push.Dialog.v2" timestamp="1602096100513">
-      <screen x="0" y="0" width="1600" height="870" />
-    </state>
-    <state x="392" y="169" key="Vcs.Push.Dialog.v2/0.0.1600.870@0.0.1600.870" timestamp="1602096100513" />
-    <state x="389" y="64" width="672" height="574" key="search.everywhere.popup" timestamp="1602428630373">
+    <state x="335" y="143" key="Vcs.Push.Dialog.v2" timestamp="1602429212436">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="389" y="64" width="672" height="574" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1602428630373" />
+    <state x="335" y="143" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1602429212436" />
+    <state x="392" y="169" key="Vcs.Push.Dialog.v2/0.0.1600.870@0.0.1600.870" timestamp="1602096100513" />
+    <state x="389" y="64" width="672" height="574" key="search.everywhere.popup" timestamp="1602429502070">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="389" y="64" width="672" height="574" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1602429502070" />
     <state x="456" y="76" width="672" height="676" key="search.everywhere.popup/0.0.1600.870@0.0.1600.870" timestamp="1602096098616" />
   </component>
 </project>

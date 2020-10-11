@@ -1,22 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2cdc5954-679b-49b8-a275-d6b6bc2e300e" name="Default Changelist" comment="">
+    <list default="true" id="d022d9a6-e4e9-4625-aa8e-f526246f2fc2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Markup/checkOut.html" beforeDir="false" afterPath="$PROJECT_DIR$/Markup/checkOut.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Markup/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/Markup/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/checkout.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/checkout.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="tsconfig.json" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1iYNP4E5iZJ49l4AgZ6SZhaAPnk" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -26,6 +35,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -79,17 +90,19 @@
     <option name="LAST_COMMIT_MESSAGE" value="Fine tuning bootstrap effects via css" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="398" y="24" key="CommitChangelistDialog2" timestamp="1602096094099">
-      <screen x="0" y="0" width="1600" height="870" />
+    <state x="340" y="0" key="CommitChangelistDialog2" timestamp="1602429155129">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state x="340" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1602429155129" />
     <state x="398" y="24" key="CommitChangelistDialog2/0.0.1600.870@0.0.1600.870" timestamp="1602096094099" />
     <state x="392" y="169" key="Vcs.Push.Dialog.v2" timestamp="1602096100513">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="392" y="169" key="Vcs.Push.Dialog.v2/0.0.1600.870@0.0.1600.870" timestamp="1602096100513" />
-    <state x="456" y="76" width="672" height="676" key="search.everywhere.popup" timestamp="1602096098616">
-      <screen x="0" y="0" width="1600" height="870" />
+    <state x="389" y="64" width="672" height="574" key="search.everywhere.popup" timestamp="1602428630373">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state x="389" y="64" width="672" height="574" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1602428630373" />
     <state x="456" y="76" width="672" height="676" key="search.everywhere.popup/0.0.1600.870@0.0.1600.870" timestamp="1602096098616" />
   </component>
 </project>
